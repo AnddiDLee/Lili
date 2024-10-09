@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'ai galéré pour ça genre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #a78da7;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #e3a1fd;
+            animation: slideIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            color: #ffffff;
+            animation: slideIn 4s ease-in-out;
+        }
+        p.p1 {
+            font-size: 1.5em;
+            color: #ffffff;
+            animation: slideIn 6s ease-in-out;
+
+        }
+        p.p2{
+            font-size: 1em
+
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .heart {
+            color: #72053f;
+            font-size: 8em;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.3);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Joyeux anniversaire mon coeur</h1>
+        <p>C'est tellement ringar et pourtant j'ai pris tellement de temps à le faire que ça confirme que je suis
+        plus que l'ombre de moi même parce que je t'aime vraiment.</p>
+
+        <p>Que Dieu protège puisque j'en ai pas les capacités 
+        physiques ni l'argent pour. Je t'aime.</p>
+        <div class="heart">❤️</div>
+            
+        
+        
+        <p>
+            <a href="https://www.dropbox.com/scl/fi/2icp73y1gihlef2x8sch5/Ceci-n-est-pas-une-invitation.pdf?rlkey=n6uk84j34wh9tywmvh7nfxl98&st=wiwtbus1&dl=0" targert="_blank">Touche moi</a>
+        </p>
+    </div>
+</body>
+</html>
+
